@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.container {
+  text-align: center;
+}
+
+.hero {
+  padding: 80px 20px;
+}
+
+.hero button {
+  padding: 12px 24px;
+  font-size: 16px;
+}
+
+.features, .steps, .pricing, .cta {
+  padding: 60px 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  width: 200px;
+}
+
+.popular {
+  border: 2px solid #38bdf8;
+}
+
+footer {
+  padding: 20px;
+  font-size: 14px;
+}
